@@ -25,7 +25,6 @@ class HcaptchaImagesDownloader:
         self.sitekey = sitekey
         self.counter = 1
         self.directory = os.getcwd()
-        self.questions = self.get_questions()
 
     def download_images(self):
         global success_count
@@ -35,12 +34,6 @@ class HcaptchaImagesDownloader:
 
         self.res = self.get_captcha()
 
-        question = self.res['requester_question']['en'].replace(
-            'Please click each image containing a ', '').replace('Please click each image containing an ', '')
-
-        if question not in self.questions:
-            self.questions.append(question)
-            self.write_question(question)
 
         urls = []
 
