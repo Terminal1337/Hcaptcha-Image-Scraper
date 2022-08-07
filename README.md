@@ -1,12 +1,12 @@
 # Hcaptcha-Images-Scraper
 🎲 Download Hcaptcha Images to train your AI
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/95563109/183302998-e0beb622-35e4-4680-9044-4f768f8e58ad.gif)
 
-![image](https://user-images.githubusercontent.com/75091300/178101631-0d0fee30-13bf-433a-b3a2-fc493c58a0d1.png)
 
 ## Usage
 * Simply run `main.py`
-* Sort your images into folders with their names
-* You can use my AI trainer [here](https://github.com/Mewzax/Hcaptcha-AI-Trainer)
+- Terminal#5841
 
 ## Credits
-Thank's to h0nde for n data function
+1)Thank's to h0nde for n data function
+2)Thanks to MaxAndolini
