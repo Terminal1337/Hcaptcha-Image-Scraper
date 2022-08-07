@@ -58,15 +58,6 @@ class HcaptchaImagesDownloader:
                 print(url+" downloaded")
             
 
-            urls.append(url)
-
-        for url in urls:
-            # os.system('curl '+url+'-o'+name())
-            # try:
-                
-            # except Exception as e:
-            #     print(e)
-            print(f'Image {self.counter} [{url[:40]}...]')
             
 
 
